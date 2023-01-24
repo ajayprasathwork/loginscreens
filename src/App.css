@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  letter-spacing: 1px;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+:root{
+  --cardcolor:cadetblue;
+  --bordercolor:rgb(170, 245, 247)
+}
+button{
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.custom-input{
+  background-color: #f5f5f5;
+  padding: 12px 10px;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #d4d5d5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline:none ;
+}
+.custom-input-error{
+  background-color: #f5f5f5;
+  padding: 12px 10px;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ed2d2d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline:none ;
+}
+.custom-input:focus{
+  border: 2px solid #0E2A47;
+
+}
+.custom-input-error:focus{
+  border: 2px solid #ed2d2d;
+
+}
+
+.custom-button{
+  background-color:#0E2A47;
+  padding: 12px 20px;
+  width: 100%;
+  margin: 8px 0;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border: none;
+
+}
+.formerror{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  font-size: small;
+  color: #ed2d2d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.card-titel{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  color: #0E2A47;
+}
+.forgetpassword{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  color: #838485;
+}
+.Remamber{
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  font-size: small;
+  accent-color: #0E2A47;
+
+}
+.Remamber input{
+  margin-top: 4px;
+  margin-right: 4px;
+}
+.icons{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.googel{
+  color: #ea4335;
+}
+.facebook{
+  color: #3b5998;
+}
+.apple{
+  color:#000000
+}
+
+
